@@ -1,3 +1,46 @@
+# Automated Smart Contract Lottery with Chainlink Integration
+
+## Overview
+Welcome to the automated smart contract lottery system! This project harnesses the power of Chainlink to create a decentralized and automated lottery experience. Users can enter the lottery by contributing funds to the smart contract, and the Chainlink Coordinator checks periodically to determine if the conditions for a draw have been met.
+
+### Key Features
+- **Automated Draws:** The lottery draw is automated, with no manual intervention required once set up.
+- **Chainlink Integration:** Utilizes Chainlink for reliable, decentralized coordination and random number generation.
+- **Transparent and Fair:** The winner selection process is transparent, relying on Chainlink's random number generation for fairness.
+- **Direct Payouts:** Winners receive their funds automatically, directly from the contract.
+
+### How It Works
+1. **Entering the Lottery:** Participants enter the lottery by sending funds to the contract.
+2. **Draw Conditions Check:** The Chainlink Coordinator periodically checks if the conditions for a lottery draw are met, based on a predefined time interval.
+3. **Random Number Request:** Once the conditions are fulfilled, the Coordinator requests a random number from the Chainlink node.
+4. **Winner Calculation and Payout:** The lottery winner is calculated based on the received random number, and the prize money is automatically sent to the winner's address.
+
+### Requirements
+For the lottery to function seamlessly, it is essential that:
+- The Chainlink Coordinator always has sufficient LINK to cover operational fees and ensure uninterrupted service.
+
+### Quickstart
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+```shell
+$ git clone https://github.com/Cyfrin/foundry-smart-contract-lottery-f23
+```
+
+
+3. Navigate to the project directory:
+```shell
+$ cd foundry-smart-contract-lottery-f23
+```
+
+
+4. Build the project using Foundry:
+```shell
+$ forge build
+```
+   
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
