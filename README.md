@@ -39,6 +39,26 @@ $ cd foundry-smart-contract-lottery-f23
 $ forge build
 ```
    
+## Deployment to Testnet or Mainnet
+
+### Environment Variable Setup
+To prepare for deployment:
+
+- **Set up your Environment Variables:** 
+  - `SEPOLIA_RPC_URL`: This is the URL of the Sepolia testnet node you are using. You can set this up for free with Alchemy.
+  - `PRIVATE_KEY`: Use the private key of your development account (e.g., from MetaMask). Remember, for development purposes, use a key without real funds. [Learn how to export it here](Your-Link-To-Export-Instructions).
+  
+  Add these variables to a `.env` file as shown in the provided `.env.example`.
+
+- **Optional:** Include your `ETHERSCAN_API_KEY` for contract verification on Etherscan.
+
+### Acquiring Testnet ETH
+- Visit [faucets.chain.link](https://faucets.chain.link) to receive testnet ETH, which should then appear in your MetaMask wallet.
+
+### Deploying the Contract
+- Run the following command to deploy:
+  ```shell
+  make deploy ARGS="--network sepolia"
 
 
 ## Foundry
