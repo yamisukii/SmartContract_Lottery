@@ -46,7 +46,7 @@ To prepare for deployment:
 
 - **Set up your Environment Variables:** 
   - `SEPOLIA_RPC_URL`: This is the URL of the Sepolia testnet node you are using. You can set this up for free with Alchemy.
-  - `PRIVATE_KEY`: Use the private key of your development account (e.g., from MetaMask). Remember, for development purposes, use a key without real funds. [Learn how to export it here](Your-Link-To-Export-Instructions).
+  - `PRIVATE_KEY`: Use the private key of your development account (e.g., from MetaMask). Remember, for development purposes, use a key without real funds.
   
   Add these variables to a `.env` file as shown in the provided `.env.example`.
 
