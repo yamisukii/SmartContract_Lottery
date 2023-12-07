@@ -24,13 +24,13 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
 ```shell
-$ git clone https://github.com/Cyfrin/foundry-smart-contract-lottery-f23
+$ git clone https://github.com/yamisukii/SmartContract_Lottery
 ```
 
 
 3. Navigate to the project directory:
 ```shell
-$ cd foundry-smart-contract-lottery-f23
+$ cd SmartContract_Lottery
 ```
 
 
